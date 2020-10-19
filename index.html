@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+       <title> Welcome to my third project.</title>
+       <link rel="stylesheet" href="style.css">
+   <script src="java.js"> </script>
+       </head>
+       <body>
+           <div class="calculator">
+               <form name="forming">
+               <input type="text" name="answers" class="inputs" id="java">
+               <br><br><br>
+               <input type="button" value="  1  " onclick="forming.answers.value +='1' " class="color"> &nbsp;&nbsp;&nbsp;
+               <input type="button" value="  2  " onclick="forming.answers.value +='2'" class="color"> &nbsp;&nbsp;&nbsp; 
+               <input type="button" value="  3  " onclick="forming.answers.value +='3'" class="color"> &nbsp;&nbsp;&nbsp;
+               <input type="button" value="  4  " onclick="forming.answers.value +='4'" class="color"> &nbsp;&nbsp;&nbsp;
+               <br><br>
+               <input type="button" value="  5  " onclick="forming.answers.value +='5'" class="color"> &nbsp;&nbsp;&nbsp;
+               <input type="button" value="  6  " onclick="forming.answers.value +='6'" class="color"> &nbsp;&nbsp;&nbsp;
+               <input type="button" value="  7  " onclick="forming.answers.value +='7'" class="color"> &nbsp;&nbsp;&nbsp;
+               <input type="button" value="  8  " onclick="forming.answers.value +='8'" class="color"> &nbsp;&nbsp;&nbsp;
+               <br><br>
+               <input type="button" value="  9  " onclick="forming.answers.value +='9'" class="color"> &nbsp;&nbsp;&nbsp;
+               <input type="button" value="  0  " onclick="forming.answers.value +='0'" class="color"> &nbsp;&nbsp;&nbsp;
+               <input type="button" value="  (   " onclick="forming.answers.value +='('" class="color"> &nbsp;&nbsp;&nbsp;
+               <input type="button" value="  )   " onclick="forming.answers.value +=')'"class="color"> &nbsp;&nbsp;&nbsp;
+               <br><br>
+               <input type="button" value="  +  " onclick="forming.answers.value +='+'"class="color"> &nbsp;&nbsp;&nbsp;
+               <input type="button" value="  -  " onclick="forming.answers.value +='-'"class="color"> &nbsp;&nbsp;&nbsp;
+               <input type="button" value="  *   " onclick="forming.answers.value +='*'"class="color"> &nbsp;&nbsp;&nbsp;
+               <input type="button" value="  /   " onclick="forming.answers.value +='/'"class="color"> &nbsp;&nbsp;&nbsp;
+               <br><br>
+               <input type="button" value=" SI " onclick="forming.answers.value =simpleInterest()">  &nbsp;&nbsp;&nbsp;
+               <input type="button" value=" CI " onclick="forming.answers.value =compoundInterest()">  &nbsp;&nbsp;&nbsp;
+               <input type="button" value=" AC " onclick="forming.answers.value =''" class="AC">  &nbsp;&nbsp;&nbsp;
+               <input type="button" value="  =  " onclick="forming.answers.value =eval(forming.answers.value)"> &nbsp;&nbsp;&nbsp;
+               <br><br>
+                   </form>
+
+               </div>
+       </body>
+
+    </html>
